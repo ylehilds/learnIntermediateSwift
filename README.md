@@ -1,2 +1,2 @@
-# learnIntermediateSwift
-Learn Intermediate Swift
+# Learn Intermediate Swift Projects
+Learn Intermediate Swift Projects
