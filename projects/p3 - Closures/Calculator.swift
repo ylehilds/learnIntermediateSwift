@@ -55,7 +55,7 @@ let groupWeights = calculator.map(weights) { $0 + 20}
 print(groupWeights)
 
 
-let calories = [400, 800, 500, 1000]
+let calories = [400, 800, 500, 1000, 0,300]
 let sortedCalories = calculator.sort(calories, by: <)
 print(sortedCalories)
 
