@@ -25,11 +25,11 @@ struct Calculator {
       return mappedNums
     }
 
-    func sort(_ nums: [Int], by ascending: (Int, Int) -> Bool) -> [Int] {
+    func sort(_ nums: [Int], by order: (Int, Int) -> Bool) -> [Int] {
       var nums = nums
         for indexOne in 1..<nums.count {
             var indexTwo = indexOne
-            while indexTwo > 0 && ascending(nums[indexTwo], nums[indexTwo - 1]) {
+            while indexTwo > 0 && order(nums[indexTwo], nums[indexTwo - 1]) {
                 nums.swapAt(indexTwo - 1, indexTwo)
                 indexTwo -= 1
             }
